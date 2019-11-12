@@ -1,0 +1,46 @@
+QPushButton {
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    color: #BDC8E2;
+    background-color: #2E3648;
+}
+QSlider::groove:horizontal {
+    border: none;
+    height: 6px;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 rgb(124, 124, 124), stop: 1.0 rgb(72, 71, 71));
+}
+
+QSlider::handle:horizontal {
+        width: 10px;
+        background: rgb(0, 160, 230);
+        margin: -6px 0px -6px 0px;
+        border-radius: 9px;
+}
+
+/*
+QSlider::groove:horizontal {
+    border: none;
+    height: 4px;
+    background: red;
+}
+QSlider::handle:horizontal {
+    border: none;
+    margin: -5px 0px; // 上下边距和左右边距
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    background: #6495E0;
+}
+// 划过部分
+QSlider::sub-page:horizontal {
+    background: #6495E0;
+    height: 4px;
+}
+// 未划过部分
+QSlider::add-page:horizontal {
+    background: black;
+    height: 4px;
+}
+/*
+
+
